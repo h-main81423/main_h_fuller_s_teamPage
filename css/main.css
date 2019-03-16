@@ -1,7 +1,106 @@
 @charset "UTF-8";
 /*CSS Doc*/
 
-
 .hidden {
 	display: none;
+}
+
+#container
+{
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	background-image: linear-gradient(#c7f9e6, #54afa0);
+}
+
+.bg
+{
+	/*placeholder class*/
+}
+
+.simBg
+{
+
+}
+.hayBg
+{
+
+}
+
+#title
+{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 20px
+}
+
+
+#infoCon
+{
+	height: auto;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+
+}
+
+#photo
+{
+	margin: 0 auto;
+}
+
+#photo1
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 300px;
+	width: 300px;
+}
+
+#name
+{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	height: auto;
+	margin-top: 20px;
+	margin: 0 auto;
+}
+
+#bio
+{
+	margin: 0 auto;
+	margin-top: 10px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: center;
+}
+
+#buttonBox
+{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#hayButton
+{
+	background-color: #FFF;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	padding: 10px;
+}
+
+#simButton
+{
+	background-color: #FFF;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: bold;
+	padding: 10px;
 }
