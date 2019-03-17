@@ -23,7 +23,6 @@ Project Due Date: March 16th
 - Variable declaration for the image container
 - Array declaration for Title changes, commas between vars. Will need to select the current title id as well.
 - Create the array for the biographic info using var and commas between the declarations. 
-- Variable declaration for background switching.
 -  Declare profile photo variable and hook into the image tag with a doc selector
 - Change image function will need to have a para.innerHTML to remove the current bio, and then a += to get the next set in. We will need to put an if atatement in to remove any image in the current placeholder, and change the image source in that statement. We will need an else for if the container is full. This will need to be done twice, as there are two separate buttons.
 - Create change title function. We will need to use parent and child node controls to navigate our if statements, which should empty the title content and append the next title. This will need to be done twice, as there are two separate buttons.

@@ -7,25 +7,16 @@
 
 #container
 {
-	width: 800px;
+	max-width: 800px;
 	height: auto;
 	margin: 0 auto;
+	padding-top: 20px;
 	padding-bottom: 20px;
-	background-image: linear-gradient(#c7f9e6, #54afa0);
-}
-
-.bg
-{
-	/*placeholder class*/
-}
-
-.simBg
-{
-
-}
-.hayBg
-{
-
+	background-color: #1e5763;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%231e5763' cx='50' cy='0' r='50'/%3E%3Cg fill='%23195f6b' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23116772' cx='50' cy='100' r='50'/%3E%3Cg fill='%23046f7a' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23007780' cx='50' cy='200' r='50'/%3E%3Cg fill='%23007f87' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300888d' cx='50' cy='300' r='50'/%3E%3Cg fill='%23009092' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23009997' cx='50' cy='400' r='50'/%3E%3Cg fill='%2300a19c' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300aaa0' cx='50' cy='500' r='50'/%3E%3Cg fill='%2300b2a3' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300bba6' cx='50' cy='600' r='50'/%3E%3Cg fill='%2300c3a9' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300ccaa' cx='50' cy='700' r='50'/%3E%3Cg fill='%2300d5ac' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%231addad' cx='50' cy='800' r='50'/%3E%3Cg fill='%2330e6ad' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2341eead' cx='50' cy='900' r='50'/%3E%3Cg fill='%2351f7ad' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2361ffac' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+	/*Background from SVGbackgrounds.com*/
 }
 
 #title
@@ -34,7 +25,7 @@
 	font-weight: bold;
 	font-size: 30px;
 	text-align: center;
-	padding-top: 20px
+	color: #1E5763;
 }
 
 
@@ -44,8 +35,12 @@
 	width: 300px;
 	display: flex;
 	flex-direction: column;
+	margin-top: 20px;
 	margin: 0 auto;
-
+	padding: 20px;
+	background-image: linear-gradient(#61FFAC,#effaff); 
+	border: dashed 2px #1E5763;
+	border-radius: 20px;
 }
 
 #photo
@@ -69,6 +64,7 @@
 	height: auto;
 	margin-top: 20px;
 	margin: 0 auto;
+	color: #1E5763;
 }
 
 #bio
@@ -77,6 +73,8 @@
 	margin-top: 10px;
 	font-family: 'PT Sans Narrow', sans-serif;
 	text-align: center;
+	color: #1E5763;
+	line-height: 25px;
 }
 
 #buttonBox
@@ -91,16 +89,22 @@
 
 #hayButton
 {
-	background-color: #FFF;
+	background-image: linear-gradient(#61FFAC,#effaff); 
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: bold;
 	padding: 10px;
+	color: #1E5763;
+	border: dashed 1px #1E5763;
+	border-radius: 20px;
 }
 
 #simButton
 {
-	background-color: #FFF;
+	background-image: linear-gradient(#61FFAC,#effaff); 
 	font-family: 'PT Sans Narrow', sans-serif;
 	font-weight: bold;
 	padding: 10px;
+	color: #1E5763;
+	border: dashed 1px #1E5763;
+	border-radius: 20px;
 }
